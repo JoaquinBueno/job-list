@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px
+}
+:root {
+--pale-blue: hsl(243, 100%, 93%);
+--grayish-blue: hsl(229, 7%, 55%);
+--dark-blue: hsl(228, 56%, 26%);
+--very-dark-blue: hsl(229, 57%, 11%);
+--switch: #5f616d;
+}
+
+.contenedor-p {
+    background: url('images/bg-mobile.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 3em;
+    padding-bottom: 5em;
+    padding-top: 2em;
+
+}
+
+.fylo-container {
+    background: var(--dark-blue);
+    border-radius: 1em 5em 1em 1em;
+    width: 80%;
+    max-width: 500px;
+    margin: 2em;
+}
+.fylo {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.fylo-logo {
+    margin-left: 2em;
+    /* border: 1px solid white; */
+
+
+}
+
+.fylo-img {
+    margin: 1em
+}
+
+
+.logos {
+    /* border: 1px solid red; */
+    margin-left: 3em;
+    display: flex;
+    padding-bottom: 1.5em;
+    /* border: 1px solid red; */
+}
+
+.doc {
+    margin-top: .5em;
+    margin-right: 1em;
+    /* border: 1px solid white; */
+    width: 35px;
+    background: var(--very-dark-blue);
+    border-radius: 20% 20% 20% 20%;
+    display: flex;
+    height: 35px;
+}
+
+.doc img {
+    margin: auto;
+}
+
+.folder {
+    margin-top: .5em;
+    margin-right: 1em;
+    /* border: 1px solid white; */
+    width: 35px;
+    background: var(--very-dark-blue);
+    border-radius: 20% 20% 20% 20%;
+    display: flex;
+
+}
+.folder img {
+    margin: auto;
+}
+.up {
+    margin-top: .5em;
+    margin-right: 1em;
+    /* border: 1px solid white; */
+    width: 35px;
+    background: var(--very-dark-blue);
+    border-radius: 20% 20% 20% 20%;
+    display: flex;
+    
+}
+
+.up img {
+    margin: auto;
+}
+
+.storage-container {
+    margin: 2em;
+    background: var(--dark-blue);
+    border-radius: 1em 1em 1em 1em;
+    width: 80%;
+    max-width: 500px;
+
+    /* border: red 1px solid; */
+    padding-top: 1em;
+    padding-bottom: 3em;
+
+}
+
+.storage-container p {
+    color: white;
+    text-align: center;
+    font-weight: 400;
+
+    margin-bottom: 1em;
+}
+
+.storage-container strong {
+    font-weight: 700;
+}
+.meter {
+    width: 75%;
+    height: 14px;  /* Can be anything */
+    position: relative;
+    background:  hsl(229, 57%, 11%);
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    padding: 2.5px;
+    margin: auto;
+    box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+
+.meter span {
+    display: block;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-image: linear-gradient(
+    to right,
+    hsl(6, 100%, 80%) 37%,
+    hsl(335, 100%, 65%) 69%
+    );
+    box-shadow:
+    inset 0 2px 9px  rgba(255,255,255,0.3),
+    inset 0 -2px 6px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+}
+h2 {
+    font-size: 0.6rem;
+    float: left;
+    padding-top: 0.7%;
+    padding-right: 30%;
+    color: var(--grayish-blue);
+}
+  
+h3 {
+    font-size: 0.6rem;
+    padding-top: 0;
+    padding-left: 80%;
+    color: var(--grayish-blue);
+
+}
+
+.left {
+    /* border: 1px solid red; */
+    width: 40%;
+    max-width: 200px;
+    height: 50px;
+    border-radius: 1em 1em 1em 1em;
+    background: white;
+    margin-left: 6em;
+    margin-top: -3.5em;
+    display: flex;
+    position: absolute;
+}
+.left-txt {
+    margin: auto;
+    color: var(--dark-blue);
+}
+
+
+.left-txt strong {
+    font-size: 2rem;
+}
+
+
+@media screen and (min-width: 1340px){
+    .contenedor-p {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    .storage-container {
+        width: 120%;
+        display: flex;
+        flex-direction: column;
+        padding:  2em;
+        position: relative;
+        max-width: unset;
+    }
+
+    .left {
+        width: 20%;
+        border: 1px solid red;
+        position: fixed;
+        top: 10em;
+        left: 55em;
+
+    }
+}

@@ -1,0 +1,73 @@
+[
+    {
+        "jobImg": "images/photosnap.svg",
+        "company": "Photosnap",
+        "jobName": "Junior Frontend Developer",
+        "info": "5d ago - Part Time - USA only",
+        "filters": ["Frontend", "Senior", "HTML", "CSS", "JavaScript"]
+    },
+    {
+        "jobImg": "images/myhome.svg",
+        "company": "MyHome",
+        "jobName": "Junior Frontend Developer",
+        "info": "5d ago - Contract - USA only",
+        "filters": ["Frontend", "Junior", "JavaScrpt", "CSS"]
+    },
+    {
+        "jobImg": "images/manage.svg",
+        "company": "Manage",
+        "jobName": "Fullstack Developer",
+        "info": "5d ago - Part Time - Remote",
+        "filters": ["Fullstack", "Midweight", "React", "Python"]
+    },
+    {
+        "jobImg": "images/account.svg",
+        "company": "Account",
+        "jobName": "Junior Frontend Developer",
+        "info": "5d ago - Part Time - USA only",
+        "filters": ["Frontend", "Junior", "React", "Sass", "JavaScript"]
+    },
+    {
+        "jobImg": "images/loop-studios.svg",
+        "company": "Loop Studios",
+        "jobName": "Software Engineer",
+        "info": "1w ago - Full Time - Worldwide",
+        "filters": ["Fullstack", "Midweight", "JavaScrpt", "Sass", "Ruby"]
+    },
+    {
+        "jobImg": "images/faceit.svg",
+        "company": "FaceIt",
+        "jobName": "Junior Backend Developer",
+        "info": "1w ago - Full Time - UK only",
+        "filters": ["Backend", "Junior", "Ruby", "RoR"]
+    },
+    {
+        "jobImg": "images/shortly.svg",
+        "company": "Shortly",
+        "jobName": "Junior Developer",
+        "info": "1w ago - Full Time - Worldwide",
+        "filters": ["Frontend", "Junior", "HTML", "JavaScript", "Sass"]
+    },
+    {
+        "jobImg": "images/insure.svg",
+        "company": "Insure",
+        "jobName": "Junior Frontend Developer",
+        "info": "2w ago - Full Time - USA only",
+        "filters": ["Frontend", "Junior", "JavaScrpt", "Vue", "Sass"]
+    },
+    {
+        "jobImg": "images/eyecam-co.svg",
+        "company": "Eyecam Co.",
+        "jobName": "Full Stack Engineer",
+        "info": "3w ago - Full Time - Worldwide",
+        "filters": ["Fullstack", "Midweight", "JavaScrpt", "Django", "Python"]
+    },
+    {
+        "jobImg": "images/the-air-filter-company.svg",
+        "company": "The Air Filter Company",
+        "jobName": "Front-end Dev",
+        "info": "1mo ago - Part Time - Worldwide",
+        "filters": ["Frontend", "Junior", "JavaScrpt", "React", "Sass"]
+    }
+
+]

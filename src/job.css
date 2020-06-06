@@ -1,0 +1,63 @@
+.card {
+    font-family: 'Spartan', sans-serif;
+    width: 65%;
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    border-left: 4px solid hsl(180, 29%, 50%);
+    margin: 3em auto;
+    border-radius: 1em 1em 1em 1em;
+    background: white;
+    box-shadow: 0 1px 4px 0 black;
+}
+
+.card img {
+    width: 10%;
+    position: absolute;
+    margin-top: -1.5rem;
+    margin-left: 1rem;
+    max-width: 50px;
+}
+
+.company-style {
+    font-size: .8rem;
+    padding-left: 5%;
+    padding-top: 1.5rem;
+    font-weight: 700;
+    color: hsl(180, 29%, 50%);
+    margin-bottom: -1rem;
+    
+}
+
+h2 {
+    font-size: 1rem;
+    padding-left: 5%;
+}
+
+.info {
+    font-size: .6rem;
+    padding-left: 5%;
+    border-bottom: 1px solid gray;
+    width: 85%;
+    margin: auto;
+}
+
+.info-text {
+    margin-left: -1rem;
+}
+
+.filters {
+   font-size: .7rem;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   column-gap: .5rem;
+   margin: auto;
+}
+
+.filter {
+    border-radius: 10% 10% 10% 10%;
+    background: hsl(180, 31%, 95%);
+    padding: .25rem;
+    margin: .5rem auto;
+    color: hsl(180, 14%, 20%);
+}
